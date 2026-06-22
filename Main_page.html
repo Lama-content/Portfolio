@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Accessibilité -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Référencement -->
+    <title>Portfolio - Adrien Le Verger</title>
+    <meta name="description" content="Portfolio de Adrien Le Verger ">
+    <meta name="author" content="Adrien Le Verger">
+    <!-- Style et fonts -->
+    <link rel="stylesheet" href="node_modules/@fontsource-variable/inter/index.css">
+    <link rel="stylesheet" href="node_modules/@fontsource/bungee/index.css">
+    <link rel="stylesheet" href="Main_page.css">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+</head>
+
+<body>
+
+<!-- Background -->
+<div id="particles-js" class="background-image"></div>
+
+<!-- Navigation -->
+<div class="nav-bar">
+    <nav>
+        <ul class="main-nav">
+            <li class="titre"><span>Portfolio - Adrien Le Verger</span></li>
+            <li class="push-right"><a href="Main_page.html">Accueil</a></li>
+            <li><a href="Competences/Competences.html">Compétences</a></li>
+            <li><a href="Formations/Formations.html">Formations</a></li>
+            <li><a href="#">Expérience</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Corps principal -->
+<div class="content">
+    <div class="main-text-container">
+        <!-- Chargement de la vidéo -->
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=LMgemoBh-N8n_C6e"
+                title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- Présentation -->
+        <div class="main-content">
+        <h1 class="main-title">Adrien <br> Le Verger</h1>
+        <h2 class="main-text">Actuellement étudiant en 3ᵉ année de BUT Génie Biologique parcours Science de
+                l'Alimentation et Biotechnologies. En parallèle de ce cursus, je suis pour le moment en alternance en production
+                chez Loudéac viandes. Ce site vous permettra d'en découvrir plus sur moi.</h2>
+        </div>
+    </div>
+
+    <div class="CV-button">
+        <button type="button" onclick="window.open('https://drive.google.com/file/d/1Tc0Z4sR4KLp_bdJY9ximxlRn88_CW8--/view?usp=sharing', '_blank')">
+            Consulter mon CV &#8677;
+        </button>
+    </div>
+</div>
+
+<script src="node_modules/particles.js/particles.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
